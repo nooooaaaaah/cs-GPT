@@ -5,7 +5,11 @@
         }
     ],
     "settings": {
-        "workbench.colorCustomizations": {}
+        "workbench.colorCustomizations": {},
+        "cSpell.words": [
+            "ASPNETCORE",
+            "Msix"
+        ]
     },
     "extensions": {
         "recommendations": [
