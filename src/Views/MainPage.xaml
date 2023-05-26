@@ -41,7 +41,12 @@
                     SemanticProperties.Hint="Counts the number of times you click"
                     Style="{StaticResource PrimaryAction}"
                     Text="Click me" />
-
+                <Button
+                    Text="Chat"
+                    SemanticProperties.Hint="Goto Chat"
+                    HorizontalOptions="Center"
+                    Style="{StaticResource PrimaryAction}"
+                    />
                 <Image
                     HeightRequest="310"
                     HorizontalOptions="Center"
