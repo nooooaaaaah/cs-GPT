@@ -42,16 +42,16 @@
 
     <ItemGroup>
         <!-- App Icon -->
-        <MauiIcon Include="Resources\appicon.svg" ForegroundFile="Resources\appiconfg.svg" Color="#512BD4"/>
+        <MauiIcon Include="src\Resources\appicon.svg" ForegroundFile="src\Resources\appiconfg.svg" Color="#512BD4"/>
         <!-- Splash Screen -->
-        <MauiSplashScreen Include="Resources\appiconfg.svg" Color="#512BD4" BaseSize="128,128"/>
+        <MauiSplashScreen Include="src\Resources\appiconfg.svg" Color="#512BD4" BaseSize="128,128"/>
         <!-- Images -->
-        <MauiImage Include="Resources\Images\*"/>
-        <MauiImage Update="Resources\Images\dotnet_bot.svg" BaseSize="168,208" />
+        <MauiImage Include="src\Resources\Images\*"/>
+        <MauiImage Update="src\Resources\Images\dotnet_bot.svg" BaseSize="168,208" />
         <!-- Custom Fonts -->
-        <MauiFont Include="Resources\Fonts\*"/>
-        <!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
-        <MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+        <MauiFont Include="src\Resources\Fonts\*"/>
+        <!-- Raw Assets (also remove the "src\Resources\Raw" prefix) -->
+        <MauiAsset Include="src\Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
     </ItemGroup>
 
     <ItemGroup>
