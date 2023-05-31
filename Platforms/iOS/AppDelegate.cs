@@ -1,10 +1,11 @@
-﻿using Foundation;
+﻿using Android.Runtime;
+using Foundation;
 
 namespace Clippy
 {
     [Register(nameof(AppDelegate))]
-    public class AppDelegate : MauiUIApplicationDelegate
+    public partial class AppDelegate : MauiUIApplicationDelegate
     {
-        protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+        protected MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
     }
 }

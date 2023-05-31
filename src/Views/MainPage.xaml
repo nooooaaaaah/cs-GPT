@@ -42,11 +42,11 @@
                     Style="{StaticResource PrimaryAction}"
                     Text="Click me" />
                 <Button
-                    Text="Chat"
-                    SemanticProperties.Hint="Goto Chat"
+                    Clicked="OnChatViewClicked"
                     HorizontalOptions="Center"
+                    SemanticProperties.Hint="Goto Chat"
                     Style="{StaticResource PrimaryAction}"
-                    />
+                    Text=" Goto Chat" />
                 <Image
                     HeightRequest="310"
                     HorizontalOptions="Center"

@@ -1,4 +1,6 @@
-﻿namespace Clippy.Views
+﻿using Microsoft.Maui.Controls;
+// using Clippy.Interfaces;
+namespace Clippy.Views
 {
     public partial class MainPage : ContentPage
     {
@@ -14,6 +16,10 @@
             CounterLabel.Text = $"Current count: {count}";
 
             SemanticScreenReader.Announce(CounterLabel.Text);
+        }
+        private void OnChatViewClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ChatPage());
         }
     }
 }
